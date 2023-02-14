@@ -8,12 +8,30 @@
     
 }
 
-.photo-1 {
-    float: left;
-    margin: 10px;
+main {
+    border: 10px solid #f99;
+    background-color: #f11;
 }
 
-.photo-2 {
-    float: right;
-    margin: 10px;
+.text {
+    width: 50%;
+    float: left;
+    padding: 0 20px;
+}
+
+.content {
+    /* border: 2px dashed; */
+    float: left;
+    width: 33%;
+    padding: 10px
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.clearfix {
+    clear: left
 }
