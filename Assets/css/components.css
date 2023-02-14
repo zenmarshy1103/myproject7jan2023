@@ -8,30 +8,27 @@
     
 }
 
-main {
-    border: 10px solid #f99;
-    background-color: #f11;
+
+.row img {
+    width: 100%;
 }
 
-.text {
-    width: 50%;
-    float: left;
-    padding: 0 20px;
-}
-
-.content {
-    /* border: 2px dashed; */
-    float: left;
-    width: 33%;
-    padding: 10px
-}
-
-.footer {
-    height: 100px;
+footer {
+    height: 200px;
     background-color: black;
     color: white;
+    padding-top: 30px;
+    
 }
 
-.clearfix {
-    clear: left
+.footer-link{
+    color: white;
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+
+}
+
+.footer img {
+    width: 50%;
 }
